@@ -31,12 +31,14 @@ html {
 }
 .caption {
   position: absolute;
-  left: 70;
+  left: 10;
   top: 50%;
   width: 100%;
   color: #000;
 }
 .cover-heading {
+  font-family: 'glamor', 'serif', 'typeface', 'typography';
+  font-style: oblique;
   font-size: 5vw;
 }
 @media screen and (min-width: 601px) {
@@ -48,4 +50,22 @@ html {
   div.cover-heading div.cover-heading {
     font-size: 30px;
   }
+}
+.demo-info {
+  background-color: whitesmoke;
+  padding-bottom: 10px;
+  position: relative;
+  color: #777;
+}
+.bottom {
+  position: absolute;
+  bottom: 8px;
+  left: 1px;
+  height: 3rem;
+}
+.topright {
+  position: absolute;
+  top: 8px;
+  right: 1px;
+  height: 3rem;
 }
